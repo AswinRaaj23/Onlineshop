@@ -3,7 +3,6 @@
 *.pot
 *.pyc
 
-media
 db.sqlite3
 # Backup files # 
 *.bak 
