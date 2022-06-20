@@ -15,6 +15,13 @@ import environ
 from pathlib import Path
 import braintree
 
+from django.utils.translation import gettext_lazy as _
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('es', _('Spanish')),
+)
+
 env=environ.Env()
 environ.Env.read_env()
 
